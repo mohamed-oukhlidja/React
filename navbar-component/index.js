@@ -79,11 +79,11 @@ function Navbar() {
 }
 function Hero() {
   return (
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
+    <div className="accordion" id="accordionExample">
+      <div className="accordion-item">
+        <h2 className="accordion-header">
           <button
-            class="accordion-button"
+            className="accordion-button"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseOne"
@@ -95,10 +95,10 @@ function Hero() {
         </h2>
         <div
           id="collapseOne"
-          class="accordion-collapse collapse show"
+          className="accordion-collapse collapse show"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             <strong>This is the first item's accordion body.</strong> It is
             shown by default, until the collapse plugin adds the appropriate
             classes that we use to style each element. These classes control the
@@ -110,10 +110,10 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
+      <div className="accordion-item">
+        <h2 className="accordion-header">
           <button
-            class="accordion-button collapsed"
+            className="accordion-button collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseTwo"
@@ -125,10 +125,10 @@ function Hero() {
         </h2>
         <div
           id="collapseTwo"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             <strong>This is the second item's accordion body.</strong> It is
             hidden by default, until the collapse plugin adds the appropriate
             classes that we use to style each element. These classes control the
@@ -140,10 +140,10 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
+      <div className="accordion-item">
+        <h2 className="accordion-header">
           <button
-            class="accordion-button collapsed"
+            className="accordion-button collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapseThree"
@@ -155,10 +155,10 @@ function Hero() {
         </h2>
         <div
           id="collapseThree"
-          class="accordion-collapse collapse"
+          className="accordion-collapse collapse"
           data-bs-parent="#accordionExample"
         >
-          <div class="accordion-body">
+          <div className="accordion-body">
             <strong>This is the third item's accordion body.</strong> It is
             hidden by default, until the collapse plugin adds the appropriate
             classes that we use to style each element. These classes control the
